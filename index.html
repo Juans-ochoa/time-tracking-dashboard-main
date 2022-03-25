@@ -9,36 +9,97 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Time tracking dashboard</title>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main>
       <article class="profile">
-        <img src="" alt="" class="img__profile" />
-        <p class="name__user">
-          <span>Report for</span>
-          Jeremy Robson
-        </p>
-        <nav class="menu">
+        <div class="profile__information">
+          <div class="img__profile">
+            <img src="/images/image-jeremy.png" alt="jeremy" />
+          </div>
+          <p class="name__user">
+            <span>Report for</span>
+            Jeremy Robson
+          </p>
+        </div>
+        <nav class="menu__profile">
           <a href="#">Daily</a><a href="#">Weekly</a><a href="#">Monthly</a>
         </nav>
       </article>
       <section class="tasks">
-        <div class="content__task">
+        <div class="content__task" id="work">
           <article class="task">
             <header class="task__header">
               <p>content</p>
-              <button class="menu__task">...</button>
+              <button class="menu__task"><span>...</span></button>
+            </header>
+            <div class="task__body">
+              <div class="task__time">32hrs</div>
+              <p class="task__description">Last Week - 32hrs</p>
+            </div>
+          </article>
+        </div>
+        <div class="content__task" id="play">
+          <article class="task">
+            <header class="task__header">
+              <p>content</p>
+              <button class="menu__task"><span>...</span></button>
+            </header>
+            <div class="task__body">
+              <div class="task__time">32hrs</div>
+              <p class="task__description">Last Week - 32hrs</p>
+            </div>
+          </article>
+        </div>
+        <div class="content__task" id="study">
+          <article class="task">
+            <header class="task__header">
+              <p>content</p>
+              <button class="menu__task"><span>...</span></button>
+            </header>
+            <div class="task__body">
+              <div class="task__time">32hrs</div>
+              <p class="task__description">Last Week - 32hrs</p>
+            </div>
+          </article>
+        </div>
+        <div class="content__task" id="exercise">
+          <article class="task">
+            <header class="task__header">
+              <p>content</p>
+              <button class="menu__task"><span>...</span></button>
+            </header>
+            <div class="task__body">
+              <div class="task__time">32hrs</div>
+              <p class="task__description">Last Week - 32hrs</p>
+            </div>
+          </article>
+        </div>
+        <div class="content__task" id="social">
+          <article class="task">
+            <header class="task__header">
+              <p>content</p>
+              <button class="menu__task"><span>...</span></button>
+            </header>
+            <div class="task__body">
+              <div class="task__time">32hrs</div>
+              <p class="task__description">Last Week - 32hrs</p>
+            </div>
+          </article>
+        </div>
+        <div class="content__task" id="self-care">
+          <article class="task">
+            <header class="task__header">
+              <p>content</p>
+              <button class="menu__task"><span>...</span></button>
             </header>
             <div class="task__body">
               <div class="task__time">32hrs</div>
