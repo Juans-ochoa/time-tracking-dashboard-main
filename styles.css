@@ -157,7 +157,7 @@ footer {
   background-color: var(--violet-social-color);
 }
 
-#self-care {
+#self_care {
   background-image: url("/images/icon-self-care.svg");
   background-color: var(--soft-orange-care-color);
 }
@@ -186,7 +186,10 @@ footer {
 }
 
 .task__header button {
+  display: flex;
+  align-items: center;
   height: auto;
+  padding: 0.5rem;
   outline: none;
   border: none;
   font-size: 1rem;
@@ -207,6 +210,14 @@ footer {
 .task__description {
   font-size: 0.8rem;
   color: var(--desaturated-blue-color);
+}
+
+a.active__link {
+  color: #fff;
+}
+
+.hidden__task {
+  display: none;
 }
 
 .attribution {
